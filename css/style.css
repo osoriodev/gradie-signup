@@ -1,3 +1,13 @@
+:root {
+  --clr-primary: #013243;
+  --clr-secondary: #86BFD3;
+  --clr-tertiary: #8D8D8D;
+  --clr-tertiary-lt: #BCBCBC;
+  --clr-tertiary-ltr: #DADADB;
+  --clr-ntrl-min: #000;
+  --clr-ntrl-max: #FFF;
+  --ff-primary: 'Roboto', sans-serif;
+}
 /* ========== RESET ========== */
 html {
   font-size: 62.5%;
@@ -9,6 +19,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  font-family: var(--ff-primary);
   font-size: 1.6rem;
   line-height: 1.4;
 }
