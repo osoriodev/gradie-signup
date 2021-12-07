@@ -13,6 +13,34 @@
     <title>Codewell | Gradie sign up page</title>
   </head>
   <body>
-    <main class="main-section"></main>
+    <main class="main-section">
+      <article class="gradie">
+        <h1 class="sr-only">Create a new account</h1>
+        <section class="gradie__hero">
+          <div class="gradie__text-wrapper">
+            <h2 class="gradie__title">Gradie</h2>
+            <p class="gradie__descrip">Beautiful gradients in seconds.</p>
+          </div>
+          <img class="gradie__hero-img" src="./assets/iphone-mockup.png" alt="iPhone">
+        </section>
+        <section class="gradie__info">
+          <h2 class="gradie__title">Login</h2>
+          <form class="gradie__form" action="#">
+            <label class="gradie__label" for="email">Email</label>
+            <input class="gradie__input" type="email" name="email" id="email" placeholder="john@example.com">
+            <label class="gradie__label" for="pass">Password</label>
+            <input class="gradie__input" type="password" name="password" id="pass" placeholder="At least 8 characters">
+            <div class="gradie__check-wrapper">
+              <input class="gradie__checkbox" type="checkbox" name="terms" id="check">
+              <label class="gradie__check-label" for="check">
+                By creating an account, you agree to the
+                <a class="gradie__link" href="#">Terms & Conditions</a>.
+              </label>
+            </div>
+            <button class="gradie__cta" type="button">Create an Account</button>
+          </form>
+        </section>
+      </article>
+    </main>
   </body>
 </html>
